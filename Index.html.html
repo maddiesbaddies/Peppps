@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bold Beauty Peptides | Research Use Only</title>
+<style>
+  body { margin:0; font-family:"Helvetica Neue", Arial, sans-serif; background:#fff; color:#000; }
+  .top-disclaimer { background:#000; color:#fff; text-align:center; padding:10px 20px; font-size:12px; letter-spacing:1px; }
+  header { padding:40px 20px; text-align:center; border-bottom:1px solid #eaeaea; }
+  header h1 { margin:0; font-size:36px; font-weight:800; letter-spacing:2px; text-transform:uppercase; }
+  header p { margin-top:10px; font-size:13px; letter-spacing:1px; color:#555; text-transform:uppercase; }
+  .tabs { display:flex; justify-content:center; border-bottom:1px solid #eaeaea; margin-top:20px; flex-wrap:wrap; }
+  .tab { padding:12px 30px; cursor:pointer; font-weight:600; text-transform:uppercase; letter-spacing:1px; border-bottom:3px solid transparent; transition:all 0.2s ease; margin:5px; }
+  .tab.active { border-color:#000; }
+  .tab:hover { border-color:#333; }
+  .container { max-width:1200px; margin:auto; padding:40px 20px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:40px; margin-top:20px; }
+  .product { border:1px solid #eaeaea; padding:30px; display:flex; flex-direction:column; justify-content:space-between; transition:all 0.3s ease; background:#fff; }
+  .product:hover { border-color:#000; box-shadow:0px 8px 20px rgba(0,0,0,0.08); }
+  .product h3 { margin:0 0 10px 0; font-size:18px; font-weight:600; letter-spacing:1px; text-transform:uppercase; }
+  .price { font-size:22px; font-weight:700; margin:10px 0; }
+  .product p { font-size:13px; color:#333; margin-bottom:15px; }
+  .btn { background:#000; color:#fff; border:none; padding:12px; font-size:11px; letter-spacing:2px; text-transform:uppercase; cursor:pointer; transition:background 0.2s ease; }
+  .btn:hover { background:#333; }
+  .about { display:none; line-height:1.6; font-size:14px; color:#333; }
+  footer { border-top:1px solid #eaeaea; padding:40px 20px; text-align:center; font-size:11px; letter-spacing:0.5px; }
+</style>
+</head>
+<body>
+
+<div class="top-disclaimer">
+  <strong>Disclaimer:</strong> All products are sold strictly for laboratory research purposes only. Not intended for human or animal use.
+</div>
+
+<header>
+  <h1>Bold Beauty Peptides</h1>
+  <p>Premium Research Compounds • Not for Human Consumption</p>
+</header>
+
+<div class="tabs">
+  <div class="tab active" onclick="showCategory('recovery')">Recovery & Healing</div>
+  <div class="tab" onclick="showCategory('growth')">Growth & Body Support</div>
+  <div class="tab" onclick="showCategory('metabolism')">Metabolism & Research</div>
+  <div class="tab" onclick="showCategory('sexual')">Sexual & Libido</div>
+  <div class="tab" onclick="showCategory('special')">Special Series</div>
+  <div class="tab" onclick="showCategory('about')">About</div>
+</div>
+
+<!-- Recovery & Healing -->
+<div class="container" id="recovery">
+  <div class="grid">
+    <div class="product"><h3>BPC157 5mg</h3><div class="price">$60.00</div><p>Peptide for tendon, ligament, and muscle repair research.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>BPC10mg + TB10mg</h3><div class="price">$110.00</div><p>Combo peptide stack for tissue repair research.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Reta5</h3><div class="price">$80.00</div><p>Peptide studied for tissue regeneration.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Reta10</h3><div class="price">$120.00</div><p>Peptide studied for cellular regeneration and repair.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Reta20</h3><div class="price">$190.00</div><p>Advanced peptide for tissue repair studies.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>GHK-Cu 50</h3><div class="price">$65.00</div><p>Copper peptide for skin, hair, and wound repair research.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Extra Syringes (x10)</h3><div class="price">$35.00</div><p>Laboratory equipment for peptide administration.</p><button class="btn">Add to Cart</button></div>
+  </div>
+</div>
+
+<!-- Growth & Body Support -->
+<div class="container" id="growth" style="display:none;">
+  <div class="grid">
+    <div class="product"><h3>Cagri5</h3><div class="price">$80.00</div><p>Peptide for regenerative research studies.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Cagri10</h3><div class="price">$120.00</div><p>Advanced regenerative peptide for lab research.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Glow70</h3><div class="price">$90.00</div><p>Cosmetic research peptide blend.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>MOTS-C 40</h3><div class="price">$110.00</div><p>Peptide studied for mitochondrial and metabolic research.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>N+500</h3><div class="price">$80.00</div><p>NAD+ peptide for cellular energy and metabolic research.</p><button class="btn">Add to Cart</button></div>
+  </div>
+</div>
+
+<!-- Metabolism & Research -->
+<div class="container" id="metabolism" style="display:none;">
+  <div class="grid">
+    <div class="product"><h3>ML10</h3><div class="price">$60.00</div><p>Peptide for cellular repair research.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Epithalon</h3><div class="price">$55.00</div><p>Telomerase-activating peptide for longevity research.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Sema5</h3><div class="price">$60.00</div><p>Peptide studied in metabolic research.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Sema10</h3><div class="price">$85.00</div><p>Research peptide for metabolic studies.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Semax10</h3><div class="price">$80.00</div><p>Peptide for cognitive and metabolic research studies.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Snap-8</h3><div class="price">$60.00</div><p>Cosmetic and metabolic peptide research.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Glutathione</h3><div class="price">$90.00</div><p>Antioxidant peptide for research purposes.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>IGF-1</h3><div class="price">$80.00</div><p>Growth factor peptide for lab research.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>KPV</h3><div class="price">$60.00</div><p>Peptide used in inflammatory research studies.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Tox 100iu</h3><div class="price">$105.00</div><p>Research peptide for laboratory studies.</p><button class="btn">Add to Cart</button></div>
+  </div>
+</div>
+
+<!-- Sexual & Libido -->
+<div class="container" id="sexual" style="display:none;">
+  <div class="grid">
+    <div class="product"><h3>PT-141</h3><div class="price">$75.00</div><p>Peptide researched for sexual response pathways and libido.</p><button class="btn">Add to Cart</button></div>
+  </div>
+</div>
+
+<!-- Special Series: Tirz -->
+<div class="container" id="special" style="display:none;">
+  <div class="grid">
+    <div class="product"><h3>Tirz 10</h3><div class="price">$70.00</div><p>Tirz series peptide, 10mg research dose.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Tirz 15</h3><div class="price">$90.00</div><p>Tirz series peptide, 15mg research dose.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Tirz 20</h3><div class="price">$110.00</div><p>Tirz series peptide, 20mg research dose.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Tirz 30</h3><div class="price">$150.00</div><p>Tirz series peptide, 30mg research dose.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Tirz 40</h3><div class="price">$190.00</div><p>Tirz series peptide, 40mg research dose.</p><button class="btn">Add to Cart</button></div>
+    <div class="product"><h3>Tirz 60</h3><div class="price">$270.00</div><p>Tirz series peptide, 60mg research dose.</p><button class="btn">Add to Cart</button></div>
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="container about" id="about" style="display:none;">
+  <h2>About Bold Beauty Peptides</h2>
+  <p>Bold Beauty Peptides provides high-quality peptides strictly for laboratory research purposes. All products are intended for study, not human or animal use. Our formulations are research-grade and designed to support peptide-based experiments in academic and laboratory settings.</p>
+  <p>By purchasing, you confirm that you are a qualified researcher and will comply with all applicable laws regarding research chemicals.</p>
+</div>
+
+<footer>
+  <p>© 2026 Bold Beauty Peptides. All Rights Reserved.</p>
+</footer>
+
+<script>
+function showCategory(category){
+  var categories=['recovery','growth','metabolism','sexual','special','about'];
+  categories.forEach(function(c){ document.getElementById(c).style.display='none'; });
+  document.getElementById(category).style.display='block';
+  var tabs=document.getElementsByClassName('tab');
+  for(var i=0;i<tabs.length;i++){ tabs[i].classList.remove('active'); }
+  event.currentTarget.classList.add('active');
+}
+showCategory('recovery');
+</script>
+
+</body>
+</html>
